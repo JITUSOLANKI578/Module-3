@@ -4,23 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <center>
-        <img src="J:\Tops lab\L2\images\1st.svg" alt="" width="200" height="200">
-        <div style="border:3px solid rgb(0, 0, 0) ; margin: 0px 500px 0px 500px; ">
-    <form action="J:\Tops lab\L1\pk.png" method="get" >   
-       <legend >Ragistration Form</legend><br>
 
-       First Name : <input type="text" name="fname" id="fname"><br><br>
-        Last Name : <input type="text" name="fname" id="fname"><br><br>
-        Date Of Birth : <input type="text" name="fname" id="fname"><br><br>
-        G-mail : <input type="text" name="fname" id="fname"><br><br>
-        Address : <input type="text" name="fname" id="fname"><br><br>
-       
-        <input type="submit" value="submit">
-    </form>
-</div> 
-</center>
+    <style>
+        *{
+                margin: 0;
+                padding: 0;
+        }
+        body{
+            background-color: black;
+        }
+      h6, ul,.li{
+            background-color:rgb(77, 77, 77);
+        }
+       .li, li{
+            display: inline-block;
+            border: 1px solid rgb(77, 77, 77);
+           
+        }
+        h1{
+            text-align: center;
+            color: azure;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+        h6{
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+        .just{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        video{
+            height: 50%;
+            width: 50%;
+        }
+        .fdown{
+            margin-top: 100px;
+            padding-top: 10px;
+            padding-bottom: 6px;
+            background-color:rgb(77, 77, 77);
+        }
+    </style>
+</head>
+<body> 
+    <header>
+    <div class="container">
+        <h6>HTML5 Video</h6>
+    <ul>
+        <li></li>
+        <li></li>
+        <li>Apple</li>
+        <li>Yahoo!</li>
+        <li>Google Maps</li>
+        <li>YouTube</li>
+        <li>Wikipedia</li>
+        <li><select class="li"><option>News(492)</option></select></li>
+        <li><select class="li"><option>Popular</option></select></li>
+    </ul>
+</div>
+</header>
+    <h1>HTML5 VIDEO</h1>
+    <div class="just">
+    <video  controls>
+        <source src="images/clip1.mp4" type="video/mp4">
+    </video>
+</div>
+<audio src="exmpale"></audio>
+<footer>
+    <div class="fdown">
+    </div>
+</footer>
 </body>
 </html>
